@@ -1,0 +1,21 @@
+= 小工具
+
+_一切源于生活_
+
+各脚本主要针对个人的特定需求，部分使用宜有所修改，可供参考。
+
+[cols="<.^1m,<.^2m,<.^7m"]
+|===
+.4+^.^| 网络
+| net/ddns/ddns_dynv6.sh | ddns ip 地址更新，适用于 dynv6
+| net/wg/gen_conf.sh | 生成 wireguard 服务端与客户端配置文件
+| net/dping/dping.py | 批量 ip/域名 ping 测试，结果按延迟排序
+| net/wlan/iw_ip.sh | 早期写的无线 AP 工具（大几率不兼容 5G 频段），防火墙配合 nftables
+
+.2+^.^| 多媒体
+| media/bili_blv.sh | B 站视频缓存按目录结构同步导出 mkv （ *仅限个人学习，注意尊重版权* ）
+| media/clementine_utils.py | clementine 音乐播放器统计信息迁移和修改（非常有限）
+
+.1+^.^| 存储
+| storage/dist_utils.sh | gentoo 软件仓库缓存工具：同步，清理，及目录结构重布局
+|===
